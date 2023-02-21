@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../css/image/otkrytka_dobroe_utro_3.jpg" );
+    background-size: cover;
+    background-position: center;
+}
+.input {
+    text-align: center;
+}
+.counter__btn {
+    height: 30px;
+    width: 30px;
+    background-color: chartreuse;
+}
+.counter__value {
+    height: 30px;
+    background-color: aqua;
+}
